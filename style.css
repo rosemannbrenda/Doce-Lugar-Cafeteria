@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1.300;1.400;1.500;1.600;1.700;1.800;1.900&family=Cookie&display=swap');
+
+body{
+    margin: 20px;
+    padding: 0;
+    border: solid;
+    border-radius: 20px;
+    border-color: #D2848C;
+}
+
+header {
+    font-family: 'Cookie', cursiva;
+    background-color: #FFEFEF;
+    padding: 40px;
+}
+
+.menu {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 20%;
+    margin: 0 0 0 120;
+
+}
+
+nav {
+    position: absolute;
+    top: 80px;
+    right: 0;
+}
+
+
+nav li {
+    display: inline;
+}
+
+nav a:hover {
+    color: rgb(0, 0, 0);
+    color: #E94662;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 2em;
+    color: #D2848C;
+    padding: 20px;
+}
+
+.banner {
+    width: 100%;
+}
+
+.sobre {
+    padding: 3em 0;
+    margin: auto;
+}
+
+.sobre p {
+    margin: 0 0 1em auto;
+}
+
+.titulo-principal {
+text-align: center;
+font-size: 2em;
+font-family: 'Cookie', cursiva;
+margin: 0 0 20px 0;
+}
+
+.produtos-confeiteiro {
+    width: 15%;
+    display: inline;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.sobre p{
+    font-family: 'Bitter', serif;
+    font-size: 1.2em;
+}
+
+.missao {
+    font-style: italic;
+    font-weight: bold;
+    color: #D2848C;
+}
+
+.mapa p {
+    text-align: center;
+    margin: 0 0 30px 0;
+    font-family: 'Bitter', serif;
+    font-size: 1.2em;
+    
+}
+
+.mapa {
+    padding: 3em 0;
+}
+
+.mapa-conteudo {
+    width: 940px;
+    margin: 0 auto;
+}
+
+
+.beneficios {
+    margin: 10px 0 20px 0;
+    
+}
+
+.conteudo-beneficios {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.lista-beneficios {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.itens {
+    line-height: 1.5;
+    font-family: 'Bitter', serif;
+}
+
+.itens:before {
+    content: "🧁";
+}
+
+.itens:first-child {
+    font-weight: bold;
+}
+
+.imagem-beneficios {
+    width: 300px;
+    opacity: 1;
+    transition: 400ml;
+    box-shadow: 10px 10px 10px 0 #000000;
+}
+
+.imagem-beneficios:hover {
+    opacity: 0.3;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    vertical-align: top;
+    box-shadow: 10px 10px 10px #f8b9c0;
+}
+
+.produtos li:hover {
+    font-size: 20px;
+
+}
+
+.produtos h1 {
+    font-family: 'Cookie', cursiva;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #D2848C;
+    margin: 0 0 10px 0;
+}
+
+.produtos h2{
+    font-family: 'Bitter', serif;
+    margin: 10px 0 0 0;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form legend {
+    font-family: 'Bitter', serif;
+    display: block;
+    padding: 5px;
+    font-size: 1.5em;
+}
+
+.input-padrao {
+    display: block;
+    width: 50%;
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+div p{
+    margin: 40px 0 0 0;
+    font-size: 30px;
+}
+
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background-color: #D2848C;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+   transition: 2s all;
+   cursor: pointer;
+}
+
+.enviar:hover {
+    background: #E94662;
+    transform: scale(1.2);
+}
+
+table {
+    margin: 20px 0 40px;
+}
+
+thead {
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th{
+    border: 1px solid black;
+    padding: 8px 15px;
+}
+
+footer {
+    text-align: center;
+    background-color: #f8cfcf ;
+    padding: 40px 0px;
+}
+
+.copyright {
+    font-size: 1.0em; 
+    margin: 20px;
+}
+
+
+@media screen and (max-width: 800px ) {
+ .logo, .menu, .sobre, .conteudo-beneficios, .mapa-conteudo, .copyright, .produtos, .vitrini-confeitaria {
+     width: auto;
+ }
+
+ .cabeçalho{
+     margin-top: 20px;
+ }
+
+ h1 {
+    text-align: center;
+}
+
+nav {
+    position: static;
+}
+
+.sobre {
+    margin: 0 0 0 5px;
+}
+.lista-beneficios, .imagem-beneficios, .mapa, .produtos .vitrini-confeitaria {
+    width: 100%;
+}
+
+}
+
